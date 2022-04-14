@@ -22,10 +22,3 @@ theme = "m10c"
     icon = ''
     name = 'Personal'
     url = 'https://drew-s.github.io'
-
-[menu]
-[[menu.main]]
-    identifier = 'cv'
-    name = 'Résumé'
-    url = '/about/cv'
-    weight = -100
