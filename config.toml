@@ -6,7 +6,7 @@ theme = "m10c"
 [params]
     author = 'Drew Sommer'
     description = 'My personal site: Blog posts, coding, programming, and tech'
-    avatar = '/avatar.png'
+    avatar = '/avatar.jpeg'
 
 [[params.social]]
     icon = 'github'

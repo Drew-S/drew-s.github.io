@@ -1,9 +1,12 @@
 ---
 date: 2022-04-13T13:36:37-04:00
+draft: false
 ---
 
+<link rel="stylesheet" href="./index.css">
+
 <div class="title-block">
-    <img class="prn" src="/avatar.png" />
+    <img style="width: 15rem; height: 15rem;" class="prn" src="/avatar.jpeg" />
 
     <div>
         <h1 class="title">Drew Sommer</h1>
@@ -65,8 +68,8 @@ date: 2022-04-13T13:36:37-04:00
                     src="https://www.infosys.com/content/dam/infosys-web/en/global-resource/media-resources/infosys-nyn-tagline-reverse-png.png" />
                 <img class="prn" style="width: 110px;"
                     src="https://www.infosys.com/content/dam/infosys-web/en/global-resource/media-resources/infosys-nyn-tagline-png.png" />
-            </span><span style="float: right; font-weight: normal; font-size: 0.75rem;">Apr '21 &mdash; Cur
             </span>
+            <span style="float: right; font-weight: normal; font-size: 0.75rem;">Apr '21 &mdash; Cur</span>
         </h3>
 
         <p>As an important member of my development team, I helped with the
@@ -81,16 +84,28 @@ date: 2022-04-13T13:36:37-04:00
             taking on a leadership role and providing strong communication
             skills.</p>
 
-        <p>During my time on this project I rapidly learned about the ServiceNow
-            platform and quickly become proficient in the product, allowing me
-            to become a valuable asset for the company operating with little
-            oversight. The team and I presented strong teamwork skills to
-            accomplish our project.</p>
+        <p>Implemented an automated system for managing job role details in an
+            intuitive UI saving hundreds of hours of manual effort.</p>
+
+        <a href="https://github.com/RelaXedJS/ReLaXed">
+            <h3>
+                <span style="width: 110px; overflow: hidden; display: inline-block;">
+                    <img class="white-filter" src="https://github.com/RelaxedJS/ReLaXed/raw/master/logo-blue.png"
+                        alt="RelaXed">
+                </span>
+                <span style="float: right; font-weight: normal; font-size: 0.75rem;">Mar '17 &mdash; Mar '19</span>
+            </h3>
+        </a>
+
+        <p>During my time on this open source project I developed and implemented a plugin
+            system to allow for third-party integration of additional functionality.
+            I helped develop and maintain the core architecture of the processing engine.
+        </p>
     </div>
 </div>
-<hr />
+<hr class="scr">
 
-<div class="s">
+<div class="s" style="page-break-before: always;">
     <h2 class="s-title">Education</h2>
 
     <div style="width: 100%">
@@ -104,7 +119,23 @@ date: 2022-04-13T13:36:37-04:00
         <p><i>Accomplishments</i>: Honours List &mdash; 2019, 2021</p>
     </div>
 </div>
-<hr />
+<hr>
+
+<div class="s">
+    <h2 class="s-title">Skills</h2>
+
+    <div style="width: 100%;">
+        <ul style="columns: 2;">
+            <li>Excellent programming skills</li>
+            <li>Strong teamworking skills</li>
+            <li>Extremely adaptable to new technologies</li>
+            <li>Detail oriented</li>
+            <li>Proficient Linux user</li>
+        </ul>
+    </div>
+</div>
+
+<hr>
 
 <div class="s">
     <h2 class="s-title">Certifications</h2>
@@ -116,7 +147,7 @@ date: 2022-04-13T13:36:37-04:00
             <div>
                 <div>
                     <span>Certified Systems Administrator</span>
-                    <span>Dec '21</span>
+                    <span>Jul '26</span>
                 </div>
                 <span>ServiceNow</span>
             </div>
@@ -127,29 +158,7 @@ date: 2022-04-13T13:36:37-04:00
             <div>
                 <div>
                     <span>Certified Implementation Specialist - Human Resources</span>
-                    <span>Dec '21</span>
-                </div>
-                <span>ServiceNow</span>
-            </div>
-        </div>
-
-        <div class="cert">
-            <img src="https://nowlearning.service-now.com/badge_image_5132c835db5e7700760a710439961918.svg" />
-            <div>
-                <div>
-                    <span>Micro-Certification - Automated Test Framework</span>
-                    <span>Jan '21</span>
-                </div>
-                <span>ServiceNow</span>
-            </div>
-        </div>
-
-        <div class="cert">
-            <img src="https://nowlearning.service-now.com/badge_image_5132c835db5e7700760a710439961918.svg" />
-            <div>
-                <div>
-                    <span>Micro-Certification - Flow Designer</span>
-                    <span>Feb '21</span>
+                    <span>Jul '26</span>
                 </div>
                 <span>ServiceNow</span>
             </div>
@@ -160,168 +169,3 @@ date: 2022-04-13T13:36:37-04:00
 
 <button title="Print" class="prn-btn scr" onclick="window.print()"><img style="width: 18px;"
         src="https://cdn-icons-png.flaticon.com/512/3022/3022251.png"></button>
-
-<style>
-    hr {
-        border-top: 0;
-    }
-
-    .contact-info {
-        display: flex;
-        justify-content: center;
-        font-size: 1.5rem;
-        flex-wrap: wrap;
-    }
-
-    .contact-info span {
-        margin-inline: 2rem;
-    }
-
-    .title {
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .sub-title {
-        font-style: italic;
-        text-align: center;
-    }
-
-    .skill-tag {
-        border-right: 1px solid black;
-        padding-inline: 8px;
-    }
-
-    .tagline {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: calc(100% + 60px);
-        margin-left: -30px;
-        padding: 6px;
-        padding-left: 30px;
-        background-color: #57cc8a;
-        color: black;
-    }
-
-    .s {
-        display: flex;
-    }
-
-    .s-title {
-        width: 140px;
-        min-width: 140px;
-    }
-
-    .cert-container {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .cert {
-        display: flex;
-        width: 50%;
-    }
-
-    .cert>img {
-        width: 48px;
-    }
-
-    .cert>div {
-        width: 100%;
-    }
-
-    .cert>div>div {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .cert>div>div>span:first-child {
-        font-weight: bold;
-    }
-
-    .prn-btn {
-        margin-top: 3rem;
-        font-size: 1.33rem;
-        border-radius: 100vh;
-        border: 0;
-        background-color: #57cc8a;
-        padding: 1rem;
-        padding-bottom: 0.6rem;
-        cursor: pointer;
-        box-shadow: 2px 2px 5px black;
-        transition: 0.33s;
-        float: right;
-        margin-bottom: 1rem;
-    }
-
-    .prn-btn:hover {
-        transform: scale(1.25);
-    }
-
-    @media not print {
-        .prn {
-            display: none;
-        }
-    }
-
-    @media print {
-        body {
-            background-color: white;
-            color: black;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: black;
-        }
-
-        .app-header,
-        .post-meta {
-            display: none;
-        }
-
-        .scr {
-            display: none;
-        }
-
-        .prn {
-            color: black;
-        }
-
-        .prn:hover {
-            color: black;
-        }
-
-        .title-block>img {
-            width: 128px;
-            border-radius: 100vh;
-            border: 4px solid #57cc8a;
-        }
-
-        .title-block {
-            display: flex;
-            justify-content: center;
-        }
-
-        .title-block>div>* {
-            width: 100%;
-            text-align: left;
-            padding-left: 1rem;
-        }
-
-        .contact-info {
-            font-size: 1rem;
-        }
-
-        .contact-info>span {
-            padding-inline: 0rem;
-        }
-    }
-</style>
